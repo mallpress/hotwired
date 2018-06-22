@@ -1,5 +1,5 @@
 {
-  "name": "rewire",
+  "name": "hotwired",
   "version": "4.0.0",
   "description": "Easy dependency injection for node.js unit testing",
   "keywords": [
@@ -16,18 +16,13 @@
     "require"
   ],
   "author": {
-    "name": "Johannes Ewald",
-    "email": "mail@johannesewald.de"
+    "name": "Matthew Allpress"
   },
   "main": "lib/index.js",
-  "homepage": "https://github.com/jhnns/rewire",
-  "bugs": {
-    "url": "https://github.com/jhnns/rewire/issues",
-    "email": "mail@johannesewald.de"
-  },
+  "homepage": "https://github.com/mallpress/hotwired",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jhnns/rewire.git"
+    "url": "git://github.com/mallpress/hotwired.git"
   },
   "devDependencies": {
     "coffeescript": "^2.1.1",

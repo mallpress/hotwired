@@ -1,18 +1,13 @@
-rewire
+hotwired (a fork of jhnns reqire)
 ======
 **Easy monkey-patching for node.js unit tests**
-
-[![](https://img.shields.io/npm/v/rewire.svg)](https://www.npmjs.com/package/rewire)
-[![](https://img.shields.io/npm/dm/rewire.svg)](https://www.npmjs.com/package/rewire)
-[![Dependency Status](https://david-dm.org/jhnns/rewire.svg)](https://david-dm.org/jhnns/rewire)
-[![Build Status](https://travis-ci.org/jhnns/rewire.svg?branch=master)](https://travis-ci.org/jhnns/rewire)
-[![Coverage Status](https://img.shields.io/coveralls/jhnns/rewire.svg)](https://coveralls.io/r/jhnns/rewire?branch=master)
 
 rewire adds a special setter and getter to modules so you can modify their behaviour for better unit testing. You may
 
 - inject mocks for other modules or globals like `process`
 - inspect private variables
 - override variables within the module.
+- ability to inject new variables into a module
 
 **Please note:** The current version of rewire is only compatible with CommonJS modules. See [Limitations](https://github.com/jhnns/rewire#limitations).
 
