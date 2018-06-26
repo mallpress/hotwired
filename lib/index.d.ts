@@ -16,8 +16,9 @@ declare namespace RewireInterfaces {
         __set__(name: string, value: any): () => void;
         /**
          * Returns the private variable with the given name.
+         * If optional parameter is passed a truthy value, undefined is returned if the given name doesn't exist
          */
-        __get__<T = any>(name: string): T;
+        __get__<T = any>(name: string, optional? : boolean): T;
         /**
          * Returns a function which - when being called - sets obj, executes the given callback and reverts obj. If callback returns a promise, obj is only reverted after
          * the promise has been resolved or rejected. For your convenience the returned function passes the received promise through.
